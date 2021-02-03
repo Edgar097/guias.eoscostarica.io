@@ -131,13 +131,14 @@ import './App.css';
 
 class App extends Component{
   render(){
-  return (
-    <div className="App">
-      <p>Hola Mundo</p>
-    </div>
-  );
+    return (
+      <div className="App">
+        <p>Hola Mundo</p>
+      </div>
+    );
+  }
 }
-}
+
 export default App;
 ```
 
@@ -174,13 +175,14 @@ import Header from "./components/header" // Se debe agregar el import del compon
 
 class App extends Component{
   render(){
-  return (
-    <div className="App">
-      <Header />  /* Se agrega el componente */
-    </div>
-  );
+    return (
+      <div className="App">
+        <Header />  /* Se agrega el componente */
+      </div>
+    );
+  }
 }
-}
+
 export default App;
 ```
 
